@@ -8,12 +8,12 @@ plugins {
 
 android {
     namespace = "com.landenlabs.all_stop"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.landenlabs.all_stop"
         minSdk = 23
-        targetSdk = 35
+        targetSdk = 36
 
         versionCode = 60420
         versionName = '6.04.20' // 2026 April(04) 20th
@@ -76,7 +76,6 @@ dependencies {
     implementation(libs.androidx.preference)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.google.material)
-    implementation(libs.android.processes)
 
     implementation(platform(libs.firebase.bom))
     implementation(libs.firebase.analytics)
